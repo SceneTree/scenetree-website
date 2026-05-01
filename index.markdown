@@ -8,6 +8,6 @@ title: Home to your favorite home for US-based GodotCon events.
 
 ## Our Events
 
-{% include elements/event-thumbnail.html image="assets/banners/Mystery.png" title="2026?" description="Something <em>wicked</em> cool?" %}
+{% include elements/event-thumbnail.html url="https://conference.godotengine.org/US/2026/" image="assets/banners/godotcon-2026.png" title="GodotCon US 2026" description="A return to form! More GodotCon in Boston." %}
 
-{% include elements/event-thumbnail.html image="assets/banners/garage.jpg" title="GodotCon US 2025" description="The first US-based GodotCon hosted in Boston." %}
+{% include elements/event-thumbnail.html url="https://conference.godotengine.org/2025/" image="assets/banners/garage.jpg" title="GodotCon US 2025" description="The first US-based GodotCon hosted in Boston." %}
