@@ -15,17 +15,17 @@ Below, you can find and all of the recorded sessions from our YouTube. You can v
 # Photos
 {% include elements/event-photo.html
 	image="/assets/events/godotcon-2026/PXL_20260721_164534166.jpg"
-	title="GodotCon US 2026"
+	title="2026 Showcase"
 	description="The showcase was bumpin' all the way through! Which one was your favorite?" %}
 
 {% include elements/event-photo.html
 	image="/assets/events/godotcon-2026/20260722121520430.jpg"
-	title="GodotCon 2026 Session"
+	title="Full Session!"
 	description="Thank you to our speakers and to everyone who submitted a session this year!" %}
 
 {% include elements/event-photo.html
 	image="/assets/events/godotcon-2026/20260722121439791.jpg"
-	title="GodotCon 2026 Merch Table"
+	title="Merch Table"
 	description="Merch flew off the shelves this year, thank you to the volunteers who put it together!" %}
 
 {% include elements/event-photo.html
