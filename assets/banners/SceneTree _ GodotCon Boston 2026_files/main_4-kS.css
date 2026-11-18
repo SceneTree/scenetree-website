@@ -1,0 +1,137 @@
+.site-title {
+  margin-right: auto;
+}
+
+.navbar-logo {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 50px;
+  margin-right: auto;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.hero-content {
+  margin-bottom: 10%;
+  margin-top: 40%;
+  text-shadow: 1px 1px 1px black;
+}
+
+.hero-content h1 {
+  margin-bottom: 0.8rem;
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+.hero-content p {
+  margin-bottom: 0;
+  font-size: 1.75rem;
+}
+
+.included-content {
+  background: white;
+  padding: 4rem;
+}
+
+.event-thumbnail {
+  border: 1px black solid;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin: 20px;
+}
+
+.event-thumbnail a {
+  text-decoration: none;
+}
+
+.event-thumbnail-image {
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 200px;
+}
+
+.event-thumbnail-title {
+  background-image: linear-gradient(350deg, #6183ff, #47aaf5);
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.event-thumbnail-description {
+  padding: 5px 10px;
+}
+
+.event-video {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin: auto;
+}
+
+.site-footer {
+  color: #737e8c;
+  font-size: 1.4rem;
+  margin: 2rem 10rem;
+}
+
+.footer-heading {
+  font-size: 2.0rem;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-direction: revert-layer;
+  width: 100%;
+}
+
+.footer-col {
+  text-decoration: none;
+  list-style: none;
+  flex: 1 1 calc(33.33% - 10px);
+  text-align: center;
+}
+
+.footer-col ul li {
+  list-style: none;
+}
+
+.footer-col-header {
+  font-weight: bold;
+}
+
+.footer-donate-button {
+  background-image: linear-gradient(350deg, #6183ff, #47aaf5);
+  margin: auto;
+  margin-bottom: 5rem;
+  width: fit-content;
+  border-radius: 0.6rem;
+}
+
+.footer-donate-button a {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 2.0rem;
+}
+
+.footer-donate-button:hover {
+  color: #fefefe;
+  text-decoration: none;
+  background-image: linear-gradient(350deg, #a970ff, #55a3f6);
+}
+
+@media screen and (max-width: 600px) {
+  .footer-col-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-col ul {
+    padding: 0;
+  }
+}
