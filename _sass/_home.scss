@@ -115,3 +115,12 @@
 	aspect-ratio: 16/9;
 	margin: 0 var(--side-margin) 60px var(--side-margin);
 }
+
+@media (max-width: 500px)
+{
+	.event-video
+	{
+		margin-left: -5vw;
+		flex: 0 0 95vw;
+	}
+}
