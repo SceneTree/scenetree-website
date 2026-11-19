@@ -89,7 +89,6 @@
 {
 	display: flex;
 	flex-wrap: wrap;
-	width: 94%;
 }
 
 .event-photo
@@ -101,11 +100,11 @@
 {
 	display: flex;
 	flex-wrap: wrap;
-	width: 94%;
 }
 
 .event-video
 {
+	--side-margin: calc(20 * clamp(0px, 100% - 450px, 1px));
 	flex: 1 1 640px;
 	min-width: 300px;
 	max-width: 640px;
@@ -114,5 +113,5 @@
 	display: inline-block;
 	height: auto;
 	aspect-ratio: 16/9;
-	margin: 0 20px 60px 20px;
+	margin: 0 var(--side-margin) 60px var(--side-margin);
 }
